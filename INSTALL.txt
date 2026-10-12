@@ -1,0 +1,12 @@
+SPACE COAST BIKE INTAKE — INSTALLATION
+
+This ZIP is a private installable web-app package, NOT an Android APK.
+
+1. Extract the ZIP. Upload only the files in this folder to an HTTPS static web host (e.g. a separate private/unlisted site). The app files themselves contain no customer records.
+2. On your Galaxy Tab A7 Lite, open the HTTPS URL for index.html in Chrome.
+3. Chrome menu (three dots) > Install app or Add to Home screen, if offered.
+4. Open the new Bike Intake icon. It should launch without the browser address bar.
+5. Keep customer CSV, JSON, signed PDFs, photos and receipts private and offline. Never upload these records to the static website.
+6. After the first online visit, the core form should be cached for offline use. Automatic driving distance requires internet and sends addresses to external routing services.
+
+NOTE: Merely opening index.html from Downloads/file:// does not make it installable. An unlisted HTTPS URL is not access-controlled. For true access restriction, use a host with authentication, but verify it does not interfere with service workers. The form does not automatically save completed records: export JSON backups regularly.
